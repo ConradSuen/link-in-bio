@@ -1,0 +1,41 @@
+body {
+    background-color: #5e5e5e;
+    color:#ffffff
+}
+
+header{
+
+    margin-top: 4em;
+    /* Using flexbox to center elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > img {
+border-radius:100% ;
+border: 3px solid #000000;
+}
+
+ul{
+    box-sizing: border-box;
+    list-style: none;
+    /* automargin instead of flexbox to center */
+    margin: 0 auto;
+    padding: 2em;
+}
+
+ul > li {
+    background-color: #ffffff;
+    border-radius: 5em;
+    padding: 1em;
+    margin: 1em auto;
+    box-shadow: 0 0 0.5em #000a;
+    text-align: center;
+}
+
+ul>li>a{
+
+    color: #000000;
+    text-decoration: none;
+}
